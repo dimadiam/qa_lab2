@@ -33,7 +33,7 @@ class ExceptionManager:
 	def server(self) -> None:
 		return self._server
 
-	@server.getter
+	@server.setter
 	def server(self, value:ConfigParser) -> None:
 		self._server = value
 
